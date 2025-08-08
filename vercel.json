@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/hackrx/run.py",
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
       "src": "/hackrx/run",
@@ -23,7 +17,7 @@
   },
   "env": {
     "OPENAI_API_KEY": "@openai_api_key",
-    "ANTHROPIC_API_KEY": "@anthropic_api_key", 
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
     "AUTH_TOKEN": "@auth_token"
   }
 }
